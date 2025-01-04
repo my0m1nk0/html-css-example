@@ -1,0 +1,64 @@
+header {
+  background-color: #fcfcfcf6;
+  padding: 0 20%;
+  margin: 0;
+}
+nav {
+  display: flex;
+  justify-content: space-between; /*horizontal*/
+  align-items: center; /*vertical*/
+}
+
+.logo {
+  width: 60px;
+  height: 60px;
+}
+.menu > ul {
+  display: flex;
+}
+/* 2 4 8 16 24  */
+.menu > ul > li {
+  list-style: none;
+  margin: 0 16px;
+}
+.menu > ul > li > a {
+  text-decoration: none;
+  color: #111111;
+}
+
+.landing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(205, 244, 238, 0.2);
+}
+
+.landing > div {
+  width: 50%;
+  height: 400px;
+}
+.landing-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.landing-text > h1 {
+  font-size: 2.5rem;
+  color: #111111;
+}
+.landing-text > p {
+  font-size: 1.5rem;
+  color: #111111;
+}
+.landing-text > button {
+    padding: 12px 32px;
+    border-radius: 8px;
+    border-color: aqua;
+    background-color: aquamarine;
+    color: black;
+}
+.landing-img > img {
+  width: 400px;
+  height: 400px;
+}
