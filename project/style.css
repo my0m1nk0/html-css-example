@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'Playwrite';
+  src: url('../fonts/PlaywriteVN-Regular.ttf');
+}
 header {
   background-color: #fcfcfcf6;
   padding: 0 20%;
@@ -46,17 +50,37 @@ nav {
 .landing-text > h1 {
   font-size: 2.5rem;
   color: #111111;
+  /* X axis , Y axis , blur radius , color  */
+  text-shadow: -8px -8px 8px rgba(0, 0, 255, 0.2);
+  /* text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: red;
+  text-decoration-style: solid;
+
+  text-decoration: underline 2px solid red;
+} */
 }
 .landing-text > p {
-  font-size: 1.5rem;
+  font-family: 'Playwrite', sans-serif;
+  font-size: 2rem;
   color: #111111;
 }
 .landing-text > button {
     padding: 12px 32px;
     border-radius: 8px;
+    font-style: normal;
+    font-weight: bold;
     border-color: aqua;
     background-color: aquamarine;
-    color: black;
+    color: rgb(129, 126, 126);
+    font-size: 0.8rem;
+    text-transform: uppercase;
+}
+.landing-text > a:link{
+  color:white;
+  background-color: red;
+  padding: 12px 32px;
+  border-radius: 8px;
 }
 .landing-img > img {
   width: 400px;

@@ -1,0 +1,113 @@
+/* a:link{
+   padding: 8px 16px;
+   background-color: red;
+   border-radius: 4px;
+}
+a{
+    color: white;
+}
+
+a:visited{
+    background-color: green;
+    
+}
+a:hover{
+    background-color: blue;
+}
+a:active{
+    background-color: yellow;
+}
+.input{
+    padding: 8px;
+    border-radius: 4px;
+}
+.input:focus{
+    background-color: yellow;
+    outline: 1px solid red;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+img {
+	max-width: 100%;
+	max-height: 100%;
+}
+button:hover {
+	cursor: pointer;
+}
+.first_section, .second_section {
+    text-align: center;
+    padding: 40px 0;
+}
+.first_sect_inn form label {
+    display: block;
+    margin: 25px 0;
+}
+.first_sect_inn form label input {
+    border: 0;
+    border-bottom: 1px solid #eee;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 8px 0px;
+    width: 45%;
+    outline: none;
+}
+.first_sect_inn form button {
+    background-color: #000;
+    color: #fff;
+    outline: none;
+    border: 0;
+    padding: 8px 25px;
+    font-size: 15px;
+    line-height: 20px;
+    border-radius: 20px;
+}
+.first_sect_inn form label[check="active"] input {
+    border-color: #000;
+    font-weight: bold;
+}
+.second_sect_inn .cmn_box {
+    display: inline-block;
+    vertical-align: top;
+    width: 25%;
+    margin: 30px 20px;
+    padding: 20px;
+    position: relative;
+    border: 1px solid #000;
+}
+.second_sect_inn .cmn_box figure {
+	height: 200px;
+}
+
+.second_sect_inn .cmn_box button {
+    display: none;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    border-radius: 20px;
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    line-height: 19px;
+    padding: 5px 18px;
+}
+.second_sect_inn .cmn_box[currelem="active"] button{
+	display: block;
+}
+
+div[class*="cmn"] {
+   background-color: red;
+
+}
+/* ^ Caret  */
+label[class^="cmn"] {
+    background-color: green;
+}
