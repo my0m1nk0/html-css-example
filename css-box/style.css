@@ -1,0 +1,46 @@
+.container {
+    width: 300px;
+    height: 150px;
+    /* overflow-x: clip; */
+    overflow-y: hidden; /* Optional: Allow vertical scrolling if needed */
+    background-color: lightgray;
+    position: relative;
+}
+.scroll {
+    /* overflow: scroll; */
+    /* overflow: hidden; */
+    /* overflow: auto; */
+    /* overflow-y: scroll; */
+    /* overflow-x: scroll; */
+    /* overflow: visible; */
+    overflow: clip;
+}
+.position {
+  width: 500px;
+  height: 500px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  /* position: relative; */
+  /* top: 50px;
+  left: 50px; */
+  display: flex;
+  gap: 16px;
+}
+.box1, .box2, .box3 {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  border-radius: 10px;
+
+
+}
+.box2 {
+    background-color: blue;
+    /* position: fixed; */
+    position: sticky;
+    top: 0;
+    right: 0;
+    /* margin-left: 10px;
+    margin-top: 10px; */
+}
